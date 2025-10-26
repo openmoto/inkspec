@@ -19,6 +19,13 @@ desktop.ini
 # /drafts/
 # /personal-notes/
 
+# Inbox (optional - uncomment to keep ideas private)
+# Only tracks the structure, not your personal ideas
+# Uncomment the line below if you want to keep your idea captures private:
+# /inbox/ideas/*
+# !/inbox/ideas/TEMPLATE.md
+# !/inbox/ideas/.gitkeep
+
 # Manuscript Backups
 *.backup
 *.old

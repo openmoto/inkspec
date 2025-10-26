@@ -21,6 +21,7 @@ Inkspec is a collaborative fiction writing framework that uses a spec-first work
 - **OpenSpec Integration**: Change management and version control for story development
 - **AI-Assisted Writing**: Configured for Claude Code with mandatory confirmation gates
 - **Structured Requirements**: Character profiles, plot outlines, scene specifications, and world-building docs
+- **Mobile Idea Capture**: Simple inbox system for capturing inspiration on-the-go
 
 ## Three-Phase Workflow
 
@@ -82,6 +83,9 @@ inkspec/
 │       ├── characters/        # Character profiles (CH-###)
 │       ├── scenes/            # Scene outlines (SC-###)
 │       └── world/             # World-building (WB-###)
+├── inbox/                     # Mobile idea capture
+│   ├── ideas/                 # Raw ideas from mobile
+│   └── processed/             # Converted to specs
 ├── manuscript/                # Final prose output
 ├── 00_spec_driven_storytelling_protocol.md
 ├── CLAUDE.md                  # AI assistant instructions
@@ -124,6 +128,28 @@ inkspec/
 3. **Character consistency is mandatory**
 4. **Show, don't tell**
 5. **Collaborative partnership between author and AI**
+
+## Mobile Idea Capture (Inbox)
+
+Inspiration doesn't wait for you to be at your desk. The **Inkspec Inbox** lets you capture ideas anywhere:
+
+### Quick Start
+1. Use any notes app that syncs to your computer (Apple Notes, Google Keep, Notion, etc.)
+2. Create a file: `inbox/ideas/2025-01-15.md` (or just use `quick-notes.md`)
+3. Jot down whatever comes to mind - character ideas, dialogue, plot twists, world-building
+4. Later in Claude Code: "Review my inbox and help me process these ideas"
+
+### What to Capture
+- Character ideas and personality traits
+- Overheard dialogue that feels authentic
+- Plot twists and story concepts
+- World-building details and settings
+- Scene atmospheres and sensory details
+- Random creative thoughts
+
+No formatting needed - just capture! Claude will help you convert raw ideas into proper specifications later.
+
+See [inbox/README.md](inbox/README.md) for the complete workflow.
 
 ## When to Create OpenSpec Proposals
 
