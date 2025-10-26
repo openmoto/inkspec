@@ -51,7 +51,7 @@ Inkspec is a collaborative fiction writing framework that uses a spec-first work
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/inkspec.git
+git clone https://github.com/openmoto/inkspec.git
 cd inkspec
 ```
 
