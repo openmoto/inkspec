@@ -23,7 +23,7 @@ Keep this managed block so 'openspec update' can refresh the instructions.
 
 ## Project Purpose
 
-This is a **collaborative fiction writing project** using a structured, specification-driven approach called **Specification-Driven Storytelling (SDS)**. The methodology ensures story consistency, character development, and thematic coherence through a rigorous workflow that requires all narrative development to be preceded by clear, mutually-agreed-upon story specifications.
+**Inkspec** is a collaborative fiction writing framework using a structured, specification-driven approach called **Specification-Driven Storytelling (SDS)**. The methodology ensures story consistency, character development, and thematic coherence through a rigorous workflow that requires all narrative development to be preceded by clear, mutually-agreed-upon story specifications.
 
 ## Specification-Driven Storytelling Protocol
 
@@ -155,14 +155,12 @@ Skip proposals for:
 
 ## Working with This Repository
 
-This is a **Windows environment** (platform: win32) located at `D:\personal-projects\novel-writing`.
-
-The repository is **not a git repository** currently. If version control is needed, it should be initialized first.
+This is a **Windows environment** (platform: win32). The project is called **Inkspec**.
 
 ### Directory Structure
 
 ```
-novel-writing/
+inkspec/
 ├── .claude/                    # Claude Code configuration
 │   └── commands/               # Custom slash commands
 ├── openspec/                   # OpenSpec framework
@@ -176,9 +174,11 @@ novel-writing/
 │       ├── characters/        # Character profiles (CH-###)
 │       ├── scenes/            # Scene outlines (SC-###)
 │       └── world/             # World-building (WB-###)
+├── manuscript/                # Final prose output
 ├── 00_spec_driven_storytelling_protocol.md  # Core SDS protocol
 ├── AGENTS.md                  # Agent instructions
-└── CLAUDE.md                  # This file
+├── CLAUDE.md                  # This file
+└── README.md                  # Project overview
 ```
 
 ### Custom Slash Commands

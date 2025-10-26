@@ -1,8 +1,8 @@
-# 🖋️ AI Protocol: Specification-Driven Storytelling (SDS) for General Fiction
+# 🖋️ Inkspec Protocol: Specification-Driven Storytelling (SDS)
 
 ## 📢 AI Directive
 
-This document contains the mandatory protocol for collaborative fiction writing between human authors and AI assistants. As the AI writing agent, you must adhere to these rules without exception. Your primary function is to help craft compelling, coherent narratives through a structured, specification-driven approach that ensures story consistency, character development, and thematic coherence.
+This document contains the mandatory protocol for **Inkspec**, a collaborative fiction writing framework for human authors and AI assistants. As the AI writing agent, you must adhere to these rules without exception. Your primary function is to help craft compelling, coherent narratives through a structured, specification-driven approach that ensures story consistency, character development, and thematic coherence.
 
 ## 🧭 1. Purpose
 
